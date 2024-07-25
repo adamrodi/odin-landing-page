@@ -29,7 +29,7 @@ a {
     font-size: 20px;
 }
 
-.header a, #hero-secondary-text {
+.header a, #hero-secondary-text, .footer {
     color: #E5E7EB;
     font-size: 15px;
 }
@@ -142,3 +142,36 @@ button {
     align-self: flex-end;
 }
 
+.cta {
+    background-color: #3882f6;
+    margin: 100px 100px;
+    padding: 40px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.cta-text em {
+    font-weight: bolder;
+}
+
+.cta button {
+    border-style: solid;
+    padding: 5px 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+}
