@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 0px;
+    font-family: 'Wotfard', 'Wotfard-fallback', sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    
+}
+
+ul {
+    align-items: baseline;
+    display: flex;
+    margin: 0px 100px;
+    padding: 20px;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo a {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.header a, #hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding: 150px 100px;
+    gap: 100px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#hero-main-text {
+    font-size: 46px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#hero-secondary-text {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#hero-image {
+    align-self: center;
+    text-align: center;
+    background-color: gray;
+    color: #E5E7EB;
+    margin-left: auto;
+    padding: 100px 100px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.content-section {
+    padding: 100px;
+}
+
+#content-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-box {
+    padding: 70px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+.subtext {
+    color: gray;
+}
+
+.testimonials {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 1000px;
+}
+
+#testimonial-signature {
+    align-self: flex-end;
+}
+
